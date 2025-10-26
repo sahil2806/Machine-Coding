@@ -2,6 +2,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+User :: User(){
+    this->id = 0;
+    this->name = "";
+}
+
 User :: User(int uid, string uname){
     this->id = uid;
     this->name = uname;

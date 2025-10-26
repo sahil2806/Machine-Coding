@@ -10,7 +10,7 @@ public:
     map<int,Book> books;
     map<int,User> users;
 
-    Library(){}
+    // Library();
 
     void AddBook(int book_id, string book_title, string book_author,int count);
     void AddUser(int user_id, string user_name);

@@ -9,6 +9,6 @@ public:
     string title;
     string author;
     int count;
-
+    Book();
     Book(int book_id, string book_title, string book_author,int count);
 };
